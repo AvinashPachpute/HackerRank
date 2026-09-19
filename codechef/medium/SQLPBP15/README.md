@@ -30,7 +30,7 @@ department_id	department_name	location
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T15:38:03.358Z  
+**Submitted:** 2026-09-19T15:38:11.813Z  
 
 ```sql
 SELECT department_name, location
