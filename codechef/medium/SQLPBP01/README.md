@@ -30,7 +30,7 @@ Movie_id	Movie_name	Description	Rating
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T15:50:28.847Z  
+**Submitted:** 2026-09-19T15:50:34.660Z  
 
 ```sql
 SELECT 	Movie_name
