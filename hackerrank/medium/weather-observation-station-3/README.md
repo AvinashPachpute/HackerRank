@@ -1,4 +1,4 @@
-# Weather Observation Station 1
+# Weather Observation Station 3
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -26,11 +26,12 @@ where **LAT\_N** is the northern latitude and **LONG\_W** is the western longitu
 **Language:** db2  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T07:14:35.418Z  
+**Submitted:** 2026-09-20T07:20:19.781Z  
 
 ```db2
-SELECT CITY,STATE
-FROM STATION ;
+SELECT DISTINCT CITY
+FROM STATION
+WHERE MOD(ID, 2) = 0;
 
 ```
 
