@@ -38,7 +38,7 @@ There are two tables named  **`Players`**  and  **`Matches`**.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T09:15:52.364Z  
+**Submitted:** 2026-09-20T09:16:14.224Z  
 
 ```sql
 SELECT m.match_id, 
