@@ -1,4 +1,4 @@
-# Weather Observation Station 11
+# Weather Observation Station 12
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -22,13 +22,13 @@ where *LAT\_N* is the northern latitude and *LONG\_W* is the western longitude.
 **Language:** db2  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T16:20:16.726Z  
+**Submitted:** 2026-09-22T16:24:17.840Z  
 
 ```db2
 SELECT DISTINCT CITY
 FROM STATION
 WHERE LOWER(LEFT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u')
-   OR LOWER(RIGHT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u');
+  AND LOWER(RIGHT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u');
 
 ```
 
