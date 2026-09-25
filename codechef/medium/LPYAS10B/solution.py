@@ -1,1 +1,5 @@
-print("Learn Coding on CodeChef")
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
